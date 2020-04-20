@@ -1,0 +1,28 @@
+{
+  "text": "yeah again hello",
+  "type": "message",
+  "timestamp": "2020-04-19T04:32:07.999Z",
+  "id": "1587270727861",
+  "channelId": "skype",
+  "serviceUrl": "https://smba.trafficmanager.net/apis/",
+  "from": {
+    "id": "29:1BoJxnqbsmiVESWJBZfkoChYwQ3shBuLbK7v-sCitags",
+    "name": "Jaya Kumar Reddy Regalla"
+  },
+  "conversation": { "id": "29:1BoJxnqbsmiVESWJBZfkoChYwQ3shBuLbK7v-sCitags" },
+  "recipient": {
+    "id": "28:0ab215e3-6520-4e11-9a9b-79630b895435",
+    "name": "jayasamplebot"
+  },
+  "entities": [
+    {
+      "locale": "en-GB",
+      "country": "IN",
+      "platform": "Mac",
+      "timezone": "Asia/Calcutta",
+      "type": "clientInfo"
+    }
+  ],
+  "channelData": { "text": "yeah again hello" },
+  "locale": "en-GB"
+}

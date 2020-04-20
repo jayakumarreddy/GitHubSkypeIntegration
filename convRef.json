@@ -1,0 +1,16 @@
+{
+  "29:1BoJxnqbsmiVESWJBZfkoChYwQ3shBuLbK7v-sCitags": {
+    "activityId": "1587278113619",
+    "user": {
+      "id": "29:1BoJxnqbsmiVESWJBZfkoChYwQ3shBuLbK7v-sCitags",
+      "name": "Jaya Kumar Reddy Regalla"
+    },
+    "bot": {
+      "id": "28:0ab215e3-6520-4e11-9a9b-79630b895435",
+      "name": "jayasamplebot"
+    },
+    "conversation": { "id": "29:1BoJxnqbsmiVESWJBZfkoChYwQ3shBuLbK7v-sCitags" },
+    "channelId": "skype",
+    "serviceUrl": "https://smba.trafficmanager.net/apis/"
+  }
+}

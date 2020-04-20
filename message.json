@@ -1,0 +1,27 @@
+{
+  "action": "remove",
+  "type": "contactRelationUpdate",
+  "timestamp": "2020-04-19T06:38:49.824Z",
+  "id": "f:4b880078-66ea-f21b-62c7-c54dfa1195de",
+  "channelId": "skype",
+  "serviceUrl": "https://smba.trafficmanager.net/apis/",
+  "from": {
+    "id": "29:1BoJxnqbsmiVESWJBZfkoChYwQ3shBuLbK7v-sCitags",
+    "name": "Jaya Kumar Reddy Regalla"
+  },
+  "conversation": { "id": "29:1BoJxnqbsmiVESWJBZfkoChYwQ3shBuLbK7v-sCitags" },
+  "recipient": {
+    "id": "28:0ab215e3-6520-4e11-9a9b-79630b895435",
+    "name": "jayasamplebot"
+  },
+  "entities": [
+    {
+      "locale": "en-GB",
+      "country": "IN",
+      "platform": "Mac",
+      "timezone": "Asia/Calcutta",
+      "type": "clientInfo"
+    }
+  ],
+  "locale": "en-GB"
+}
