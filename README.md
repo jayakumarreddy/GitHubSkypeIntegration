@@ -1,6 +1,6 @@
 # GitHubSkypeIntegration
 
-This Repo is useful for notofying the skype users abount events happening on GitHub
+This Repo is useful for notifying the skype users abount events happening on GitHub
 
 ## Getting Started
 
