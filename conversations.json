@@ -1,0 +1,20 @@
+{
+  "0954a070-8c1e-11ea-a90f-21d75b9bf3be|livechat": {
+    "activityId": "75e74620-8c1e-11ea-a90f-21d75b9bf3be",
+    "user": {
+      "id": "d5e844f8-d000-4f05-8c96-b1f441dfb97b",
+      "name": "User",
+      "role": "user"
+    },
+    "bot": {
+      "id": "09542b40-8c1e-11ea-9d2e-9953568f56c0",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "0954a070-8c1e-11ea-a90f-21d75b9bf3be|livechat"
+    },
+    "channelId": "emulator",
+    "serviceUrl": "http://localhost:49240"
+  }
+}
