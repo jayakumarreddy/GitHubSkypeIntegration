@@ -7,11 +7,6 @@ class Bot extends ActivityHandler {
     // Dependency injected dictionary for storing ConversationReference objects used in NotifyController to proactively message users
     this.conversationReferences = conversationReferences;
 
-    this.onConversationUpdate(async (context, next) => {
-      this.addConversationReference(context.activity);
-      await next();
-    });
-
     this.onMembersAdded(async (context, next) => {
       const membersAdded = context.activity.membersAdded;
       for (let cnt = 0; cnt < membersAdded.length; cnt++) {
@@ -25,7 +20,7 @@ class Bot extends ActivityHandler {
     });
 
     this.onMessage(async (context, next) => {
-      this.addConversationReference(context.activity);
+      // this.addConversationReference(context.activity);
       // Echo back what the user said
       await context.sendActivity(`You sent '${context.activity.text}'`);
       await next();
@@ -41,7 +36,6 @@ class Bot extends ActivityHandler {
         conversationReference.conversation.id
       ] = conversationReference;
 
-      // Writing to conversations.json file
       fs.writeFile(
         "./conversations.json",
         JSON.stringify(this.conversationReferences, null, 2),
