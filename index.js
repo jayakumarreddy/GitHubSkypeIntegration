@@ -27,9 +27,8 @@ app.get("/", (req, res) => res.send("Hello World!"));
 
 // Listen for incoming requests at /api/messages.
 app.post("/api/bot", (req, res) => {
-  console.log("message received", req.body, "\n");
-  console.log("conversationReferences", conversationReferences, "\n");
   adapter.processActivity(req, res, async turnContext => {
+    bot.addConversationReference(turnContext.activity);
     await bot.run(turnContext);
   });
 });
@@ -50,7 +49,6 @@ app.post("/github", async (req, res) => {
       );
     }
   }
-
   res.end();
 });
 
